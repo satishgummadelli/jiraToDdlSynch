@@ -1,0 +1,54 @@
+[
+   {
+      "fields":{
+         "clientId":"a184c0c6-387f-48cb-8d24-440c454379f8",
+         "clientSecretSecretName":"***********",
+         "query":"AzureDiagnostics | where Category == 'SQLSecurityAuditEvents' | <timerestraint>",
+         "tenantId":"229365ac-76e3-4cbb-b87e-729538eb5fb4",
+         "workspaceId":"4c33e9d6-2367-4ac0-860f-7870e327042b"
+      },
+      "lastModified":"2007-03-01T13:00:00.000Z",
+      "metrics":{
+         "last":{
+            "eventCount":0,
+            "eventsSizeBytes":0
+         },
+         "today":{
+            "eventCount":0,
+            "eventsSizeBytes":0
+         },
+         "yesterday":{
+            "eventCount":0,
+            "eventsSizeBytes":0
+         }
+      },
+      "outputs":[
+         {
+            "index":"main",
+            "name":"splunk",
+            "sourcetype":"test"
+         }
+      ],
+      "snowApplicationId":"thisisanapplicationid",
+      "description":"description"
+      "status":"failed",
+      "taggedFields":[
+         {
+            "fieldName":"Category2",
+            "siemField":"src_ip"
+         }
+      ],
+      "tail":"2020-08-01T10:56:50.959750",
+      "testing":{
+         "errors":[
+            {
+               "description":"Pull generated no events, nothing to test."
+            }
+         ],
+         "passed":false
+      },
+      "type":"DdlLogAnalyticsInput",
+      "uid":"disconnected-test",
+      "username":8602627
+   }
+]
