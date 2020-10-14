@@ -1,0 +1,4 @@
+requests==2.24.0
+apscheduler==3.6.3
+jira==2.0.0
+pyodbc==4.0.30
