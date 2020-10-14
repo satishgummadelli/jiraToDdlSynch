@@ -1,10 +1,11 @@
 import requests
 
 CYBER_ARK_URL = ""
+# jira specific keys
 CYBER_ARK_JIRA_SAFE_ID = ""
 CYBER_ARK_JIRA_PASSWORD_NAME = ""
 CYBER_ARK_JIRA_APP_ID = ""
-
+# ddl specific keys
 CYBER_ARK_DDL_SAFE_ID = ""
 CYBER_ARK_DDL_PASSWORD_NAME = ""
 CYBER_ARK_DDL_APP_ID = ""
